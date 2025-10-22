@@ -12,19 +12,29 @@ Prerequisites
 Rust toolchain (>= 1.88)
 Cargo
 cargo-contract (for building ink! contracts)
+
 # Install cargo-contract
+
 cargo install --force --locked --tag v6.0.0-alpha.4 --git https://github.com/use-ink/cargo-contract
+
 # Update rust
+
 rustup update stable
+
 # Install an ink-node (for local testing)
+
 # Download from: https://github.com/use-ink/ink-node/releases
+
 For detailed setup instructions, see the official ink! v6 Setup Guide
 
 Build and Test
+
 # Build the contract
+
 cargo contract build
 
 # Run tests
+
 cargo contract test
 
 Deploy
